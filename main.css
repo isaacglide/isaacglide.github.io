@@ -1,0 +1,132 @@
+
+/* Body and HTML CSS */
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main content CSS */
+main {
+  width: 100%;
+  margin:20px auto 0;
+}
+
+/* ----------------------------------  */
+/* Header CSS */
+header {
+  box-shadow: 0 20px 0;
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  width: 30%;
+}
+
+.header-right {
+  width: 70%;
+}
+
+.title-name {
+  text-align: right;
+  padding: 0 .25em 0 0;
+  margin: 25px 0 0 0;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+/* ---------------------------------- */
+/* About me CSS (Top portion of website) */
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture-of-me {
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.selfie {
+  width: 100%;
+}
+
+.small-description {
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.about-me-title {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+.about-me-list {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 22px;
+}
+
+.developer {
+  margin: 1.5em 0 2em 0;
+}
+
+.Mathematician {
+  margin:0 0 2em 0;
+}
+
+.large-description {
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  font-size: 18px;
+  line-height: 40px;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+/* ---------------------------------- */
+/* Featured work CSS (Bottom portion of wedbsite)*/
+
+.featured-work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured-work-title {
+  text-align: center;
+  width: 100%;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 30px;
+}
+
+.my-work {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.work-pic {
+  width: 200px;
+  height: 200px;
+}
+
+.work-links {
+  text-align: center;
+  font-size: 20px;
+  padding: 1em 0 2.5em;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.link-padding {
+  padding: 1em;
+}
+/* ---------------------------------- */

@@ -1,0 +1,79 @@
+
+/* Responsive changes at 550px */
+
+@media screen and (min-width: 550px) {
+
+  .about-me-title {
+    font-size: 40px;
+  }
+
+  .about-me-list {
+    font-size: 30px;
+  }
+
+  .picture-of-me {
+    width: 50%;
+  }
+
+  .small-description {
+    width: 50%;
+  }
+
+  .my-work {
+    width: 50%;
+  }
+}
+
+/* Responsive changes at 775px */
+
+@media screen and (min-width: 775px) {
+
+  .work-pic {
+    width: 300px;
+    height: 300px
+  }
+
+  .work-links {
+    font-size: 30px;
+  }
+
+}
+
+/* Responsive changes at 969px */
+
+@media screen and (min-width: 969px) {
+
+  .about-me-title, .featured-work-title {
+    font-size: 60px;
+  }
+
+  .about-me-list {
+    font-size: 50px;
+  }
+
+  .large-description {
+    font-size: 34px;
+    line-height: 60px;
+    padding: 1em 1em 0;
+  }
+
+  .title-name {
+    font-size: 5em;
+    margin: 90px 0 0 0;
+  }
+
+  .my-work {
+    width: 33.33%;
+  }
+
+}
+
+/* Responsive changes at 1000px */
+
+@media screen and (min-width: 1000px) {
+  main, .header-inner {
+    width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
